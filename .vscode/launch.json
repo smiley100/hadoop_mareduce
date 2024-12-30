@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run WordCount with Arguments",
+            "request": "launch",
+            "mainClass": "tn.insat.tp1.WordCount",
+            "args": ["src/main/resources/input/file.txt", "src/main/resources/output"],
+            "projectName": "wordcount"
+        },
+        {
+            "type": "java",
+            "name": "Run Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Run App",
+            "request": "launch",
+            "mainClass": "com.example.App",
+            "projectName": "mon-projet"
+        }
+    ]
+}
